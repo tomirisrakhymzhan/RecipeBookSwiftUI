@@ -11,6 +11,8 @@
 		BF69D1082C205C370005B63B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69D1072C205C370005B63B /* ContentView.swift */; };
 		BF69D10A2C205C3A0005B63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF69D1092C205C3A0005B63B /* Assets.xcassets */; };
 		BF69D10D2C205C3A0005B63B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF69D10C2C205C3A0005B63B /* Preview Assets.xcassets */; };
+		BF69D1362C2193F30005B63B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69D1352C2193F30005B63B /* Recipe.swift */; };
+		BF69D13D2C21B88E0005B63B /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69D13C2C21B88E0005B63B /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BF69D1072C205C370005B63B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF69D1092C205C3A0005B63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF69D10C2C205C3A0005B63B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF69D1352C2193F30005B63B /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		BF69D13C2C21B88E0005B63B /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		BF69D1042C205C370005B63B /* RecipesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BF69D1142C21493D0005B63B /* Model */,
 				BF69D1052C205C370005B63B /* RecipesSwiftUIApp.swift */,
 				BF69D1072C205C370005B63B /* ContentView.swift */,
 				BF69D1092C205C3A0005B63B /* Assets.xcassets */,
 				BF69D10B2C205C3A0005B63B /* Preview Content */,
+				BF69D13C2C21B88E0005B63B /* RecipeDetailView.swift */,
 			);
 			path = RecipesSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				BF69D10C2C205C3A0005B63B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF69D1142C21493D0005B63B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF69D1352C2193F30005B63B /* Recipe.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF69D1362C2193F30005B63B /* Recipe.swift in Sources */,
+				BF69D13D2C21B88E0005B63B /* RecipeDetailView.swift in Sources */,
 				BF69D1082C205C370005B63B /* ContentView.swift in Sources */,
 				BF69D1062C205C370005B63B /* RecipesSwiftUIApp.swift in Sources */,
 			);
